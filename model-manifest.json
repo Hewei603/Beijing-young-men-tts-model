@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "repository": "Hewei603/Beijing-young-men-tts-model",
+  "release": "v1.0.0",
+  "speaker": "user_speaker",
+  "base_model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+  "base_revision": "fd4b254389122332181a7c3db7f27e918eec64e3",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "config.json",
+      "size": 4537,
+      "sha256": "c40fa9ea099de05e6ad33e681d14e99f7bc2bfc3c74889c33abcb18cc7e3cefb",
+      "parts": [
+        {
+          "asset": "config.json",
+          "size": 4537,
+          "sha256": "c40fa9ea099de05e6ad33e681d14e99f7bc2bfc3c74889c33abcb18cc7e3cefb"
+        }
+      ]
+    },
+    {
+      "path": "generation_config.json",
+      "size": 245,
+      "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa",
+      "parts": [
+        {
+          "asset": "generation_config.json",
+          "size": 245,
+          "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa"
+        }
+      ]
+    },
+    {
+      "path": "merges.txt",
+      "size": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "parts": [
+        {
+          "asset": "merges.txt",
+          "size": 1671839,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+        }
+      ]
+    },
+    {
+      "path": "model.safetensors",
+      "size": 3833402520,
+      "sha256": "c03fa20db0b545e2546bca808753c9ce40dbfc5f7435cea8f81d7e13e2867678",
+      "parts": [
+        {
+          "asset": "model.safetensors.part-001-of-003",
+          "size": 1500000000,
+          "sha256": "2e8631b14d27e41f3d151cc1921db0f879a3ff789d4e253dc8eaea469453e981"
+        },
+        {
+          "asset": "model.safetensors.part-002-of-003",
+          "size": 1500000000,
+          "sha256": "592a1f56445dc054be4308466185915f756d6815af7f8f56f9b512850c1340be"
+        },
+        {
+          "asset": "model.safetensors.part-003-of-003",
+          "size": 833402520,
+          "sha256": "3201825d6ff0050843569db9eb527d31bd0d193f2fca5629340b3e7cb226d165"
+        }
+      ]
+    },
+    {
+      "path": "preprocessor_config.json",
+      "size": 127,
+      "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119",
+      "parts": [
+        {
+          "asset": "preprocessor_config.json",
+          "size": 127,
+          "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119"
+        }
+      ]
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 7344,
+      "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670",
+      "parts": [
+        {
+          "asset": "tokenizer_config.json",
+          "size": 7344,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670"
+        }
+      ]
+    },
+    {
+      "path": "vocab.json",
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "parts": [
+        {
+          "asset": "vocab.json",
+          "size": 2776833,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ]
+    },
+    {
+      "path": "speech_tokenizer/config.json",
+      "size": 2336,
+      "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167",
+      "parts": [
+        {
+          "asset": "speech_tokenizer--config.json",
+          "size": 2336,
+          "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167"
+        }
+      ]
+    },
+    {
+      "path": "speech_tokenizer/configuration.json",
+      "size": 76,
+      "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd",
+      "parts": [
+        {
+          "asset": "speech_tokenizer--configuration.json",
+          "size": 76,
+          "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd"
+        }
+      ]
+    },
+    {
+      "path": "speech_tokenizer/model.safetensors",
+      "size": 682293092,
+      "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258",
+      "parts": [
+        {
+          "asset": "speech_tokenizer--model.safetensors",
+          "size": 682293092,
+          "sha256": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+        }
+      ]
+    },
+    {
+      "path": "speech_tokenizer/preprocessor_config.json",
+      "size": 234,
+      "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb",
+      "parts": [
+        {
+          "asset": "speech_tokenizer--preprocessor_config.json",
+          "size": 234,
+          "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb"
+        }
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "size": 11343,
+      "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655",
+      "parts": [
+        {
+          "asset": "LICENSE",
+          "size": 11343,
+          "sha256": "a44a6081c73ad75f0255bb2bb5cab74ef1829565a895a24e53a4f11290ab7655"
+        }
+      ]
+    },
+    {
+      "path": "NOTICE",
+      "size": 873,
+      "sha256": "05f87448688830de2c0d3d2061c59f8f4965976bfa692d70edf8458481373a2b",
+      "parts": [
+        {
+          "asset": "NOTICE",
+          "size": 873,
+          "sha256": "05f87448688830de2c0d3d2061c59f8f4965976bfa692d70edf8458481373a2b"
+        }
+      ]
+    }
+  ]
+}

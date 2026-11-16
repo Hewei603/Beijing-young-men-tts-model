@@ -1,0 +1,9 @@
+# Install the matching torch==2.8.0 and torchaudio==2.8.0 CPU or CUDA build first.
+# PyTorch is intentionally not reinstalled by this requirements file.
+qwen-tts==0.1.1
+transformers==4.57.3
+accelerate==1.12.0
+safetensors==0.8.0
+numpy==2.2.6
+soundfile==0.13.1
+psutil==7.2.2

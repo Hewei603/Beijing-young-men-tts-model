@@ -1,0 +1,17 @@
+Beijing Young Men TTS Model
+Copyright 2026 Hewei603 for the fine-tuning work and original release utilities.
+
+This release contains a single-speaker supervised fine-tuning of:
+Qwen/Qwen3-TTS-12Hz-1.7B-Base
+Base revision: fd4b254389122332181a7c3db7f27e918eec64e3
+Upstream project: https://github.com/QwenLM/Qwen3-TTS
+Upstream model: https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base
+The Qwen3-TTS model and associated upstream implementation are licensed
+under Apache License 2.0. Upstream authorship remains with the Qwen team
+and applicable contributors.
+
+Changes: single-speaker SFT on recordings provided by the voice owner;
+custom_voice checkpoint with speaker user_speaker; selected epoch 3.
+The speech tokenizer and text tokenizer assets are redistributed as
+required runtime components. Original training recordings and datasets
+are not included in this release.

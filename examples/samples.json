@@ -1,0 +1,20 @@
+[
+  {
+    "file": "narration.wav",
+    "text": "这样，人工就可以把时间放在需要判断的事情上，重复整理信息的工作交给工具来做。我们接着看一下实际操作。",
+    "seconds": 9.92,
+    "sample_rate": 24000,
+    "speaker": "user_speaker",
+    "sha256": "37357ccfb0ad06d37eb6ff70154d2c5bf871694538bf7a6fddf14ee52f376706",
+    "type": "generated speech; not source recording"
+  },
+  {
+    "file": "short.wav",
+    "text": "我们先打开工作台。",
+    "seconds": 1.6,
+    "sample_rate": 24000,
+    "speaker": "user_speaker",
+    "sha256": "ce58ecacddd77077d9fc98b2fc9aa98957901fa21d98d94a1ddadf076586a24e",
+    "type": "generated speech; not source recording"
+  }
+]
